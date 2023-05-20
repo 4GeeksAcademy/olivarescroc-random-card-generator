@@ -1,1 +1,49 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.bg-green {
+  background: green;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  width: 578px;
+  height: 810px;
+
+
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.5);
+  padding: 30px; /* Para evitar que el contenido toque los bordes de la tarjeta */
+}
+
+.card-top {
+  font-size: 170px;
+  text-align: left;
+}
+
+.card-middle {
+  font-size: 170px;
+  text-align: center;
+}
+
+.card-bottom {
+  font-size: 170px;
+  text-align: left;
+  transform: rotate(180deg);
+}
+
+.card-red {
+  color: red;
+}
+
+.card-black {
+  color: black;
+}
